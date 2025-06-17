@@ -6,10 +6,30 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, Github, ExternalLink } from "lucide-react";
 
+interface BaseProject {
+  title: string;
+  description: string;
+  longDescription: string;
+  techStack: string[];
+  features: string[];
+  challenges: string[];
+  status: string;
+}
+
+interface ProjectWithGithub extends BaseProject {
+  github: string;
+}
+
+interface ProjectWithCountries extends BaseProject {
+  countries: string[];
+}
+
+type Project = ProjectWithGithub | ProjectWithCountries;
+
 const ProjectDetail = () => {
   const { id } = useParams();
 
-  const projectData = {
+  const projectData: Record<string, Project> = {
     secureme: {
       title: "Secure Me",
       description: "A comprehensive web-based platform designed to revolutionize criminal system analysis through the power of Graph Databases. This project aims to ease the process of analysis and relationship detection in the current criminal justice system.",
@@ -94,6 +114,10 @@ const ProjectDetail = () => {
     );
   }
 
+  // Type guards to check which type of project we have
+  const hasGithub = (proj: Project): proj is ProjectWithGithub => 'github' in proj;
+  const hasCountries = (proj: Project): proj is ProjectWithCountries => 'countries' in proj;
+
   return (
     <div className="min-h-screen bg-background">
       <Navigation />
@@ -116,7 +140,7 @@ const ProjectDetail = () => {
             </div>
             <p className="text-xl text-muted-foreground mb-6">{project.description}</p>
             
-            {project.countries && (
+            {hasCountries(project) && (
               <div className="mb-6">
                 <h3 className="text-lg font-semibold mb-2">Deployed Countries:</h3>
                 <div className="flex flex-wrap gap-2">
@@ -130,7 +154,7 @@ const ProjectDetail = () => {
             )}
 
             <div className="flex space-x-4">
-              {project.github && (
+              {hasGithub(project) && (
                 <Button variant="outline" asChild>
                   <a href={project.github} target="_blank" rel="noopener noreferrer">
                     <Github className="w-4 h-4 mr-2" />
