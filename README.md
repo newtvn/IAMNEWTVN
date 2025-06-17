@@ -1,73 +1,157 @@
-# Welcome to your Lovable project
+# Newton Brian Nyongesa – Portfolio Documentation
 
-## Project info
+## 📌 Overview
 
-**URL**: https://lovable.dev/projects/644868a2-1818-4481-b9e1-0f6f61bf3451
+This document outlines the structure, content, and personal philosophy behind the portfolio of **Newton Brian Nyongesa** — a Frontend Engineer, UI/UX Designer, Poet, and Social Innovator based in Nairobi, Kenya.
 
-## How can I edit this code?
+The portfolio is not just a showcase of skills — it's a journey through purposeful technology, lived experiences, and creative expression. It’s built to position Newton as a global-impact developer ready for top-tier industry roles and fellowships.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🧱 Structure & Pages
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/644868a2-1818-4481-b9e1-0f6f61bf3451) and start prompting.
+### 1. Homepage
+**Purpose**: To introduce Newton’s personal brand in a clean, elegant, high-impact format.
 
-Changes made via Lovable will be committed automatically to this repo.
+**Contents**:
+- Name & tagline: _“Building technology with purpose and empathy.”_
+- Typing animation (roles: CEO, Designer, Engineer)
+- Featured projects section
+- Call to action: “Explore My Work”, “Get in Touch”
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 2. About Page
+**Purpose**: To reveal the human behind the code.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+**Contents**:
+- Journey from poetic observer to system builder
+- Personal values: clarity, equity, intention, empathy
+- Education: Alliance High School → Strathmore University (BICS)
+- Passions: Poetry, community work, mentoring
 
-Follow these steps:
+> “Through every line of code and verse of poetry, I seek to rewrite stories of exclusion into stories of access and opportunity.”
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### 3. Projects Page
+**Purpose**: To showcase a portfolio rooted in solving real-world problems with scalable, human-centered solutions.
 
-# Step 3: Install the necessary dependencies.
-npm i
+Each project includes:
+- Thumbnail/GIF
+- Problem statement & solution
+- Tech stack
+- Screenshots or demo link
+- Newton’s role
+- Social or technical impact
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+#### 📂 Featured Projects
 
-**Edit a file directly in GitHub**
+**1. OPENCHS – Open Child Helpline System**
+- 🛠 Sole frontend dev & designer
+- 🌍 Deployed in Kenya (116), Uganda (SautiCall), Tanzania (C-Sema), Lesotho
+- 🤝 Built under UNICEF in partnership with BITZ Africa
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+**2. HeartCall**
+- 🏥 Emergency response & ambulance routing system
+- 🚑 UX inspired by Newton’s time as a high school medical prefect
 
-**Use GitHub Codespaces**
+**3. Safetayaro**
+- 🍽️ Food safety monitoring platform
+- 📢 Built for informal settlements to track & alert food risks
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+**4. SecureMe**
+- 🕵🏽 Crime prediction & surveillance app using graph data
+- 🔐 Born from personal experiences with theft and insecurity
 
-## What technologies are used for this project?
+**5. LittleVisions**
+- ✨ AI storytelling for kids using OpenAI
+- 🎨 Accessible UX designed with safety and creativity in mind
 
-This project is built with:
+**6. Word and Learn**
+- 📚 Platform using stories and poetry to empower learners
+- ✍🏽 Inspired by Newton’s reflections during runs through Kibera
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+### 4. Experience Page
+**Purpose**: To highlight relevant, high-impact industry and leadership roles.
 
-Simply open [Lovable](https://lovable.dev/projects/644868a2-1818-4481-b9e1-0f6f61bf3451) and click on Share -> Publish.
+| Role | Organization | Highlights |
+|------|--------------|------------|
+| UI/UX Designer | Bitz.itc | Lead designer on OPENCHS, UNICEF project |
+| Developer | ProDG | Contributed to enterprise backend/frontend |
+| CEO | Word and Learn | Founded and grew edtech platform |
+| Extern | Beats by Dre | Market research, data synthesis |
+| Intern | Sky World Ltd. | Full stack development |
+| Project Manager | SCESA | Community leadership & IndabaX facilitation |
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+### 5. Resume Page
+**Purpose**: Provide downloadable documentation of credentials.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+- Modern, branded PDF resume
+- Certifications (Cisco, Oracle)
+- Fellowships & hackathons
+- Contact references (optional)
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+---
+
+### 6. Contact Page
+**Purpose**: Open direct channels for collaboration and recruitment.
+
+**Includes**:
+- Form (Name, Email, Message)
+- Email: `newtvnbrian@gmail.com`
+- Social icons (GitHub, LinkedIn, Twitter, Dev.to)
+
+---
+
+## 🧰 Tech Stack Summary
+
+| Domain        | Tools & Frameworks |
+|---------------|--------------------|
+| Frontend      | React, Vue, Nuxt.js, Tailwind, SCSS |
+| Backend       | Node.js, Django, GraphQL, REST APIs |
+| Databases     | PostgreSQL, MongoDB, Neo4j, Firebase |
+| DevOps & Infra| Docker, GitHub Actions, Nginx, AWS EC2 |
+| UI/UX         | Figma, Adobe XD, InVision, Sketch |
+| Design System | Atomic Design, Design Tokens, Accessibility UX |
+
+---
+
+## 🔑 Key Moments That Shaped My Craft
+
+My creative process is deeply rooted in observation, service, and personal evolution. The systems I design are born not just from technical skill, but from lived realities — moments that challenged me, moved me, and ultimately shaped the kind of developer I strive to be.
+
+| Experience | Influence |
+|------------|-----------|
+| **Daily runs through passionate routes — Kibera, Toi Market, forgotten footpaths** | These runs exposed me to both the grit and poetry of underserved communities. They became more than exercise — they became research, reflection, and the emotional fuel behind *Word and Learn*, a platform blending storytelling, equity, and digital learning for children. |
+| **Caretaker moments during my time as a school medical prefect** | Leading health responses taught me speed, calm under pressure, and empathy. These principles shaped *HeartCall*, an emergency system built not just for functionality, but for the people experiencing crisis. |
+| **Personal encounters with insecurity and theft** | Having lived through high-stakes loss, including the theft of my laptop and near-mugging, I developed *SecureMe*, a surveillance and crime prediction tool grounded in the urgent need for safer environments. |
+| **Professional immersion in Africa’s child protection systems** | As the sole frontend engineer and designer of the UNICEF-powered *OPENCHS*, I’ve helped build tools trusted by helplines across Kenya (116), Uganda (SautiCall), and Tanzania (C-Sema). It taught me to design for scale, clarity, and dignity. |
+| **The rhythm of poetry and prose in quiet evenings** | Writing has always been my second language. I use it to reflect on society, synthesize learning, and communicate complexity with simplicity. This discipline of clarity echoes in every line of code and every user interface. |
+| **Pan-African tech communities and global AI conversations** | Through *IndabaX Kenya* and *Deep Learning Indaba 2025*, I’ve been mentored and mentored others — reinforcing that African solutions require both local understanding and global-level execution. |
+
+---
+
+## 🔭 Roadmap
+
+| Milestone | Timeline |
+|-----------|----------|
+| Finalize Personal Portfolio (v1) | July 2025 |
+| Publish OPENCHS Case Study | July 2025 |
+| Write Kibera-Inspired Poetry Post | August 2025 |
+| Launch WordAndLearn MVP | September 2025 |
+| Apply to YCombinator / MLH | September 2025 |
+| Attend Deep Learning Indaba 2025 | October 2025 |
+
+---
+
+## 🧾 License & Credits
+
+All content © 2025 Newton Brian Nyongesa.  
+All visuals and IP used for illustrative, educational, and professional demonstration purposes.  
+Special thanks to Bitz.itc, UNICEF, mentors at Indaba, and all communities served.
+
