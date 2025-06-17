@@ -28,7 +28,7 @@ const About = () => {
               <h2 className="text-3xl font-bold">Who I Am</h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  I'm Newton Brian Wanyonyi Nyongesa, a 21-year-old innovator from Kenya who believes in the power of technology to transform lives. Currently pursuing my Bachelor's in Informatics and Computer Science at Strathmore University, I've already made significant strides in the tech industry.
+                  I'm Newton Brian Nyongesa, a 22-year-old innovator from Kenya who believes in the power of technology to transform lives. Currently pursuing my Bachelor's in Informatics and Computer Science at Strathmore University, I've already made significant strides in the tech industry.
                 </p>
                 <p>
                   As the Lead UI/UX Designer at BITZ-ITC, I'm the sole designer and front-end developer for UNICEF's OpenCHS project, a child helpline system deployed across 5 countries including Tanzania, Kenya, Lesotho, and Uganda. This work reflects my commitment to using technology for social impact.
