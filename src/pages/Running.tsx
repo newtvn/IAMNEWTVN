@@ -8,7 +8,7 @@ const Running = () => {
   const stats = {
     totalDistance: "1,247",
     totalRuns: "156",
-    averagePace: "5:42",
+    averagePace: "4:42",
     personalBest: "21:30",
     weeklyGoal: "25"
   };
@@ -19,25 +19,25 @@ const Running = () => {
       date: "2024-03-18",
       distance: "8.2 km",
       time: "46:24",
-      pace: "5:39 /km",
+      pace: "4:39 /km",
       location: "Karura Forest",
       type: "Long Run"
     },
     {
       id: 2,
       date: "2024-03-15",
-      distance: "5.0 km",
+      distance: "7.0 km",
       time: "28:15",
-      pace: "5:39 /km",
+      pace: "4:39 /km",
       location: "Nairobi CBD",
       type: "Tempo Run"
     },
     {
       id: 3,
       date: "2024-03-12",
-      distance: "10.5 km",
+      distance: "14.5 km",
       time: "59:30",
-      pace: "5:40 /km",
+      pace: "4:50 /km",
       location: "Ngong Hills",
       type: "Trail Run"
     }
@@ -46,7 +46,7 @@ const Running = () => {
   const achievements = [
     {
       title: "First 10K",
-      description: "Completed my first 10K run in under 60 minutes",
+      description: "Completed my first 15K run in under 60 minutes",
       date: "2023-08-15",
       icon: Trophy
     },
