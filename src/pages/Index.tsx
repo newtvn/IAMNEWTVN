@@ -1,4 +1,3 @@
-
 import Navigation from "@/components/Navigation";
 import DynamicIsland from "@/components/DynamicIsland";
 import MusicWidget from "@/components/MusicWidget";
@@ -43,7 +42,7 @@ const Index = () => {
       
       <div className="relative z-10 flex items-center justify-center min-h-screen px-4">
         <div className="text-center max-w-4xl mx-auto">
-          {/* Profile and Dynamic Island Container */}
+          {/* Profile Container */}
           <div className="mb-8 flex justify-center items-center relative">
             {/* Enhanced Profile Image with glassmorphism */}
             <div className="relative">
@@ -59,11 +58,11 @@ const Index = () => {
               <div className="absolute -top-4 -right-4 w-3 h-3 bg-green-400 rounded-full animate-bounce" style={{animationDelay: '0.5s'}} />
               <div className="absolute -bottom-4 -left-4 w-2 h-2 bg-emerald-400 rounded-full animate-bounce" style={{animationDelay: '1s'}} />
             </div>
-            
-            {/* Dynamic Island positioned to the right of profile */}
-            <div className="absolute right-[-350px] top-1/2 transform -translate-y-1/2 hidden lg:block">
-              <DynamicIsland />
-            </div>
+          </div>
+
+          {/* Dynamic Island positioned below the profile photo */}
+          <div className="flex justify-center mb-8">
+            <DynamicIsland />
           </div>
           
           {/* Navigation arrows with glassmorphism */}
