@@ -31,7 +31,6 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-900 relative overflow-hidden">
       <Navigation />
-      <DynamicIsland />
       
       {/* Enhanced starry night sky background */}
       <div className="starry-sky">
@@ -44,7 +43,7 @@ const Index = () => {
       
       <div className="relative z-10 flex items-center justify-center min-h-screen px-4">
         <div className="text-center max-w-4xl mx-auto">
-          {/* Profile and Widget Container */}
+          {/* Profile and Dynamic Island Container */}
           <div className="mb-8 flex justify-center items-center relative">
             {/* Enhanced Profile Image with glassmorphism */}
             <div className="relative">
@@ -61,9 +60,9 @@ const Index = () => {
               <div className="absolute -bottom-4 -left-4 w-2 h-2 bg-emerald-400 rounded-full animate-bounce" style={{animationDelay: '1s'}} />
             </div>
             
-            {/* Music Widget positioned to the right of profile */}
-            <div className="absolute right-[-320px] top-1/2 transform -translate-y-1/2 hidden lg:block">
-              <MusicWidget />
+            {/* Dynamic Island positioned to the right of profile */}
+            <div className="absolute right-[-350px] top-1/2 transform -translate-y-1/2 hidden lg:block">
+              <DynamicIsland />
             </div>
           </div>
           
@@ -107,13 +106,18 @@ const Index = () => {
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
             </Link>
+
+            {/* Music Widget positioned below the button */}
+            <div className="flex justify-center mt-8">
+              <MusicWidget />
+            </div>
           </div>
         </div>
       </div>
       
-      {/* Fallback Music Widget for smaller screens */}
-      <div className="lg:hidden">
-        <MusicWidget />
+      {/* Fallback Dynamic Island for smaller screens */}
+      <div className="lg:hidden fixed top-20 left-1/2 transform -translate-x-1/2 z-40">
+        <DynamicIsland />
       </div>
     </div>
   );
