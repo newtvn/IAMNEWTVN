@@ -1,3 +1,4 @@
+
 import Navigation from "@/components/Navigation";
 import DynamicIsland from "@/components/DynamicIsland";
 import MusicWidget from "@/components/MusicWidget";
@@ -112,11 +113,6 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </div>
-      
-      {/* Fallback Dynamic Island for smaller screens */}
-      <div className="lg:hidden fixed top-20 left-1/2 transform -translate-x-1/2 z-40">
-        <DynamicIsland />
       </div>
     </div>
   );
