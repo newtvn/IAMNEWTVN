@@ -73,10 +73,6 @@ const Index = () => {
           
           {/* Main content with responsive typography */}
           <div className="space-y-8">
-            <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold tracking-wider mb-6 newtvn-text animate-glow">
-              N E W T V N
-            </h1>
-            
             <div className="glass-card p-6 rounded-3xl max-w-2xl mx-auto">
               <p className="text-lg md:text-xl lg:text-2xl text-gray-300 font-medium tracking-wide">
                 DESIGNING FOR THE FUTURE
