@@ -7,7 +7,7 @@ const MusicWidget = () => {
   const [isLiked, setIsLiked] = useState(true);
 
   return (
-    <div className="fixed bottom-6 right-6 z-40">
+    <div className="z-40">
       <div className="glass-card p-4 rounded-2xl w-72 animate-float">
         <div className="flex items-center space-x-3">
           {/* Album Art */}

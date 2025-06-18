@@ -11,8 +11,8 @@ const DynamicIsland = () => {
   });
 
   const targetStats = {
-    projects: 15,
-    clients: 25,
+    projects: 54,
+    clients: 30,
     stars: 120,
     awards: 8
   };

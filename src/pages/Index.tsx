@@ -1,3 +1,4 @@
+
 import Navigation from "@/components/Navigation";
 import DynamicIsland from "@/components/DynamicIsland";
 import MusicWidget from "@/components/MusicWidget";
@@ -31,7 +32,6 @@ const Index = () => {
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-900 relative overflow-hidden">
       <Navigation />
       <DynamicIsland />
-      <MusicWidget />
       
       {/* Enhanced starry night sky background */}
       <div className="starry-sky">
@@ -44,8 +44,9 @@ const Index = () => {
       
       <div className="relative z-10 flex items-center justify-center min-h-screen px-4">
         <div className="text-center max-w-4xl mx-auto">
-          {/* Enhanced Profile Image with glassmorphism */}
-          <div className="mb-8 flex justify-center">
+          {/* Profile and Widget Container */}
+          <div className="mb-8 flex justify-center items-center relative">
+            {/* Enhanced Profile Image with glassmorphism */}
             <div className="relative">
               <div className="w-48 h-48 md:w-56 md:h-56 lg:w-64 lg:h-64 rounded-full overflow-hidden glass-card profile-glow animate-float">
                 <img
@@ -58,6 +59,11 @@ const Index = () => {
               {/* Floating particles around profile */}
               <div className="absolute -top-4 -right-4 w-3 h-3 bg-green-400 rounded-full animate-bounce" style={{animationDelay: '0.5s'}} />
               <div className="absolute -bottom-4 -left-4 w-2 h-2 bg-emerald-400 rounded-full animate-bounce" style={{animationDelay: '1s'}} />
+            </div>
+            
+            {/* Music Widget positioned to the right of profile */}
+            <div className="absolute right-[-320px] top-1/2 transform -translate-y-1/2 hidden lg:block">
+              <MusicWidget />
             </div>
           </div>
           
@@ -103,6 +109,11 @@ const Index = () => {
             </Link>
           </div>
         </div>
+      </div>
+      
+      {/* Fallback Music Widget for smaller screens */}
+      <div className="lg:hidden">
+        <MusicWidget />
       </div>
     </div>
   );
