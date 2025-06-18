@@ -1,5 +1,6 @@
-
 import Navigation from "@/components/Navigation";
+import DynamicIsland from "@/components/DynamicIsland";
+import MusicWidget from "@/components/MusicWidget";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -29,6 +30,8 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-900 relative overflow-hidden">
       <Navigation />
+      <DynamicIsland />
+      <MusicWidget />
       
       {/* Enhanced starry night sky background */}
       <div className="starry-sky">

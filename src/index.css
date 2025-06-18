@@ -206,6 +206,34 @@
   box-shadow: 0 0 6px #22c55e;
 }
 
+/* Enhanced floating animations */
+@keyframes float {
+  0%, 100% { 
+    transform: translateY(0px);
+  }
+  50% { 
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes float-delayed {
+  0%, 100% { 
+    transform: translateY(0px);
+  }
+  50% { 
+    transform: translateY(-6px);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-float-delayed {
+  animation: float-delayed 4s ease-in-out infinite;
+  animation-delay: 1s;
+}
+
 /* Responsive design utilities */
 @media (max-width: 640px) {
   .floating-card {
@@ -221,6 +249,11 @@
   /* Improve mobile scrolling */
   * {
     -webkit-overflow-scrolling: touch;
+  }
+  
+  /* Adjust floating widgets for mobile */
+  .fixed {
+    position: absolute;
   }
 }
 
@@ -281,6 +314,16 @@
   .space-y-8 > * + * {
     margin-top: 2rem;
   }
+  
+  /* Adjust widgets for mobile */
+  .fixed.bottom-6.right-6 {
+    bottom: 1rem;
+    right: 1rem;
+  }
+  
+  .fixed.top-6 {
+    top: 5rem;
+  }
 }
 
 /* Very small screens */
@@ -292,4 +335,9 @@
   /* Ensure readability */
   .text-xs { font-size: 0.75rem; }
   .text-sm { font-size: 0.875rem; }
+  
+  /* Make widgets smaller on very small screens */
+  .w-72 {
+    width: 16rem;
+  }
 }
